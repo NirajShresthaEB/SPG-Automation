@@ -15,7 +15,7 @@ async goto(){
 //     return this.page.title();
 // }
 
-async loginadmin(emailaddress:string, password:string){
+async mainlogin(emailaddress:string, password:string){
     await this.page.locator(loginSelectors.emailInput).fill(emailaddress);
     await this.page.locator(loginSelectors.passwordInput).fill(password);
     await this.page.locator(loginSelectors.loginButton).click();

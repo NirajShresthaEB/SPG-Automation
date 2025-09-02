@@ -7,24 +7,16 @@ test('basic test', async ({ page }) => {
   const login = new LoginPage(page);
   const dashboard = new DashboardPage(page);
 
+  //calling methods of loginPage class
+
   await login.goto();
-  await login.loginadmin('testsuperjunfive@yopmail.com','5965f8ad1b96');
+  await login.mainlogin('testsuperjunfive@yopmail.com','5965f8ad1b96');
 
-  await page.waitForTimeout(5000);
 
+  //calling methods of dashboardPage class
 
   await dashboard.loginasEntPrincipal();
 
-
-  await page.waitForTimeout(5000);
-
-
-  console.log("Hello");
-
-
-
-
-  
 
 });
 
