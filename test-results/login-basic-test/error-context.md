@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link:
+    - /url: /dashboard
+    - img
+  - heading "SPG" [level=3]
+  - img
+  - text: "6"
+  - button "T"
+- navigation "mailbox folders":
+  - list:
+    - button "Dashboard":
+      - img
+      - paragraph: Dashboard
+    - button "Entity Management":
+      - img
+      - heading "Entity Management" [level=5]
+    - button "User Management":
+      - img
+      - paragraph: User Management
+    - button "Pages":
+      - img
+      - paragraph: Pages
+    - button "Global Report Management":
+      - img
+      - paragraph: Global Report Management
+    - button "Roles":
+      - img
+      - paragraph: Roles
+    - button "Settings":
+      - img
+      - paragraph: Settings
+  - separator
+  - text: 0.0.2
+- main:
+  - heading "Entity Management" [level=3]
+  - navigation "breadcrumb":
+    - list:
+      - listitem:
+        - link:
+          - /url: /
+      - listitem:
+        - link "Entity Management":
+          - /url: /entities
+          - heading "Entity Management" [level=6]
+  - button "Create New Entity"
+  - textbox "Search"
+  - table:
+    - rowgroup:
+      - row "Entity Name Principal Admin Principal Contact Status Action":
+        - columnheader "Entity Name"
+        - columnheader "Principal Admin"
+        - columnheader "Principal Contact"
+        - columnheader "Status"
+        - columnheader "Action"
+    - rowgroup:
+      - row "EBPearls update Ebpearls Update +9779861065998 Active Login":
+        - cell "EBPearls update"
+        - cell "Ebpearls Update"
+        - cell "+9779861065998"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Regression test Entity Prijal Test 001 +9779813520508 Active Login":
+        - cell "Regression test Entity"
+        - cell "Prijal Test 001"
+        - cell "+9779813520508"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Alexander Slocombe Prijal Test 001 +9779813520508 Active Login":
+        - cell "Alexander Slocombe"
+        - cell "Prijal Test 001"
+        - cell "+9779813520508"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Stage Test 001 A J +61412000000 Active Login":
+        - cell "Stage Test 001"
+        - cell "A J"
+        - cell "+61412000000"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Test Entity 2 Dummy Entity 2 +61420000020 Active Login":
+        - cell "Test Entity 2"
+        - cell "Dummy Entity 2"
+        - cell "+61420000020"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Test Entity 3 Dummy Entity +61420000030 Active Login":
+        - cell "Test Entity 3"
+        - cell "Dummy Entity"
+        - cell "+61420000030"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Test Entity 4 Dummy Entity 4 +61420000040 Active Login":
+        - cell "Test Entity 4"
+        - cell "Dummy Entity 4"
+        - cell "+61420000040"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Test Entity 5 Dummy Entity 4 +61420000040 Active Login":
+        - cell "Test Entity 5"
+        - cell "Dummy Entity 4"
+        - cell "+61420000040"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Test Entity 8 Dummy Entity 8 +61410000080 Active Login":
+        - cell "Test Entity 8"
+        - cell "Dummy Entity 8"
+        - cell "+61410000080"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+      - row "Test Entity 11 Dummy Entity 11 +61420000011 Active Login":
+        - cell "Test Entity 11"
+        - cell "Dummy Entity 11"
+        - cell "+61420000011"
+        - cell "Active"
+        - cell "Login":
+          - button "Login"
+          - button "Edit"
+          - button "Disable"
+  - paragraph: 1–10 of 68
+  - button "Go to previous page" [disabled]
+  - button "Go to next page"
+- img
+```
