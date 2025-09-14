@@ -1,153 +1,143 @@
 # Page snapshot
 
 ```yaml
-- banner:
-  - link:
-    - /url: /dashboard
-    - img
-  - heading "SPG" [level=3]
-  - img
-  - text: "6"
-  - button "T"
-- navigation "mailbox folders":
-  - list:
-    - button "Dashboard":
-      - img
-      - paragraph: Dashboard
-    - button "Entity Management":
-      - img
-      - heading "Entity Management" [level=5]
-    - button "User Management":
-      - img
-      - paragraph: User Management
-    - button "Pages":
-      - img
-      - paragraph: Pages
-    - button "Global Report Management":
-      - img
-      - paragraph: Global Report Management
-    - button "Roles":
-      - img
-      - paragraph: Roles
-    - button "Settings":
-      - img
-      - paragraph: Settings
-  - separator
-  - text: 0.0.2
-- main:
-  - heading "Entity Management" [level=3]
-  - navigation "breadcrumb":
-    - list:
-      - listitem:
-        - link:
-          - /url: /
-      - listitem:
-        - link "Entity Management":
-          - /url: /entities
-          - heading "Entity Management" [level=6]
-  - button "Create New Entity"
-  - textbox "Search"
-  - table:
-    - rowgroup:
-      - row "Entity Name Principal Admin Principal Contact Status Action":
-        - columnheader "Entity Name"
-        - columnheader "Principal Admin"
-        - columnheader "Principal Contact"
-        - columnheader "Status"
-        - columnheader "Action"
-    - rowgroup:
-      - row "EBPearls update Ebpearls Update +9779861065998 Active Login":
-        - cell "EBPearls update"
-        - cell "Ebpearls Update"
-        - cell "+9779861065998"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Regression test Entity Prijal Test 001 +9779813520508 Active Login":
-        - cell "Regression test Entity"
-        - cell "Prijal Test 001"
-        - cell "+9779813520508"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Alexander Slocombe Prijal Test 001 +9779813520508 Active Login":
-        - cell "Alexander Slocombe"
-        - cell "Prijal Test 001"
-        - cell "+9779813520508"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Stage Test 001 A J +61412000000 Active Login":
-        - cell "Stage Test 001"
-        - cell "A J"
-        - cell "+61412000000"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Test Entity 2 Dummy Entity 2 +61420000020 Active Login":
-        - cell "Test Entity 2"
-        - cell "Dummy Entity 2"
-        - cell "+61420000020"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Test Entity 3 Dummy Entity +61420000030 Active Login":
-        - cell "Test Entity 3"
-        - cell "Dummy Entity"
-        - cell "+61420000030"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Test Entity 4 Dummy Entity 4 +61420000040 Active Login":
-        - cell "Test Entity 4"
-        - cell "Dummy Entity 4"
-        - cell "+61420000040"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Test Entity 5 Dummy Entity 4 +61420000040 Active Login":
-        - cell "Test Entity 5"
-        - cell "Dummy Entity 4"
-        - cell "+61420000040"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Test Entity 8 Dummy Entity 8 +61410000080 Active Login":
-        - cell "Test Entity 8"
-        - cell "Dummy Entity 8"
-        - cell "+61410000080"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-      - row "Test Entity 11 Dummy Entity 11 +61420000011 Active Login":
-        - cell "Test Entity 11"
-        - cell "Dummy Entity 11"
-        - cell "+61420000011"
-        - cell "Active"
-        - cell "Login":
-          - button "Login"
-          - button "Edit"
-          - button "Disable"
-  - paragraph: 1–10 of 68
-  - button "Go to previous page" [disabled]
-  - button "Go to next page"
-- img
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e9]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e11] [cursor=pointer]
+        - heading "SPG" [level=3] [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e23] [cursor=pointer]:
+          - img [ref=e24] [cursor=pointer]
+          - generic [ref=e28] [cursor=pointer]: "6"
+        - button "T" [ref=e29] [cursor=pointer]:
+          - generic "Test Super Thu June" [ref=e31] [cursor=pointer]: T
+  - navigation "mailbox folders" [ref=e32]:
+    - generic [ref=e33]:
+      - list [ref=e35]:
+        - button "Dashboard" [ref=e36] [cursor=pointer]:
+          - img [ref=e38] [cursor=pointer]
+          - paragraph [ref=e44] [cursor=pointer]: Dashboard
+        - button "Entity Management" [ref=e45] [cursor=pointer]:
+          - img [ref=e47] [cursor=pointer]
+          - heading "Entity Management" [level=5] [ref=e53] [cursor=pointer]
+        - button "User Management" [ref=e54] [cursor=pointer]:
+          - img [ref=e56] [cursor=pointer]
+          - paragraph [ref=e61] [cursor=pointer]: User Management
+        - button "Pages" [ref=e62] [cursor=pointer]:
+          - img [ref=e64] [cursor=pointer]
+          - paragraph [ref=e69] [cursor=pointer]: Pages
+        - button "Global Report Management" [ref=e70] [cursor=pointer]:
+          - img [ref=e72] [cursor=pointer]
+          - paragraph [ref=e80] [cursor=pointer]: Global Report Management
+        - button "Roles" [ref=e81] [cursor=pointer]:
+          - img [ref=e83] [cursor=pointer]
+          - paragraph [ref=e86] [cursor=pointer]: Roles
+        - button "Settings" [ref=e87] [cursor=pointer]:
+          - img [ref=e89] [cursor=pointer]
+          - paragraph [ref=e94] [cursor=pointer]: Settings
+      - separator [ref=e95]
+      - generic [ref=e98] [cursor=pointer]: 0.0.2
+  - main [ref=e99]:
+    - generic [ref=e100]:
+      - generic [ref=e103]:
+        - heading "Create new entity" [level=3] [ref=e105]
+        - navigation "breadcrumb" [ref=e107]:
+          - list [ref=e108]:
+            - listitem [ref=e109]:
+              - link [ref=e110] [cursor=pointer]:
+                - /url: /
+                - img [ref=e111] [cursor=pointer]
+            - listitem [ref=e113]:
+              - img [ref=e114]
+            - listitem [ref=e117]:
+              - link "Entity Management" [ref=e118] [cursor=pointer]:
+                - /url: /entities/add
+                - heading "Entity Management" [level=6] [ref=e119] [cursor=pointer]
+            - listitem [ref=e120]:
+              - img [ref=e121]
+            - listitem [ref=e124]:
+              - paragraph [ref=e125]: Create new entity
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - generic [ref=e136]: Entity Details
+            - generic [ref=e138]:
+              - generic [ref=e141]:
+                - generic [ref=e142]: Entity Name
+                - generic [ref=e143]:
+                  - textbox "Entity Name" [ref=e144]: Tony Blake
+                  - group:
+                    - generic: Entity Name
+              - generic [ref=e146]:
+                - generic [ref=e147]: Entity Phone
+                - generic [ref=e148]:
+                  - button "Select country" [ref=e150] [cursor=pointer]:
+                    - img [ref=e151] [cursor=pointer]
+                  - textbox "Entity Phone" [ref=e163]: +61 423 442 332
+                  - group:
+                    - generic: Entity Phone
+              - generic [ref=e166]:
+                - generic [ref=e167]: Email
+                - generic [ref=e168]:
+                  - textbox "Email" [ref=e169]: test_itxdva@yopmail.com
+                  - group:
+                    - generic: Email
+              - generic [ref=e170]:
+                - heading "Entity Logo" [level=4] [ref=e171]
+                - button "Upload" [ref=e174] [cursor=pointer]: Upload
+          - generic [ref=e176]:
+            - generic [ref=e179]: Principal Admin Details
+            - generic [ref=e181]:
+              - generic [ref=e184]:
+                - generic [ref=e185]: Admin Full Name
+                - generic [ref=e186]:
+                  - textbox "Admin Full Name" [ref=e187]: John Ray
+                  - group:
+                    - generic: Admin Full Name
+              - generic [ref=e190]:
+                - generic [ref=e191]: Title
+                - generic [ref=e192]:
+                  - textbox "Title" [ref=e193]
+                  - group:
+                    - generic: Title
+              - generic [ref=e196]:
+                - generic [ref=e197]: Email
+                - generic [ref=e198]:
+                  - textbox "Email" [active] [ref=e199]: test_itxdva@yopmail.com
+                  - group:
+                    - generic: Email
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - text: Admin Contact
+                  - generic [ref=e203]: "*"
+                - generic [ref=e204]:
+                  - button "Select country" [ref=e206] [cursor=pointer]:
+                    - img [ref=e207] [cursor=pointer]
+                  - textbox "Admin Contact" [ref=e219]: "+61"
+                  - group:
+                    - generic: Admin Contact *
+              - generic [ref=e220]:
+                - heading "Principal Admin Picture" [level=4] [ref=e221]
+                - button "Upload" [ref=e224] [cursor=pointer]: Upload
+        - generic [ref=e227]:
+          - generic [ref=e230]: Patriot API Details
+          - generic [ref=e232]:
+            - generic [ref=e235]:
+              - generic [ref=e236]: Patriot API Username
+              - generic [ref=e237]:
+                - textbox "Patriot API Username" [ref=e238]
+                - group:
+                  - generic: Patriot API Username
+            - generic [ref=e241]:
+              - generic [ref=e242]: Patriot API Password
+              - generic [ref=e243]:
+                - textbox "Patriot API Password" [ref=e244]
+                - group:
+                  - generic: Patriot API Password
+        - paragraph
+        - button "Add Entity" [ref=e248] [cursor=pointer]: Add Entity
 ```
