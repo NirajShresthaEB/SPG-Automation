@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '@pages/LoginPage';
-import { DashboardPage, entadmData } from '@pages/dashboardPage';
+import { LoginPage } from '../pages/LoginPage';
+import { DashboardPage, entadmData } from '../pages/dashboardPage';
 import { generateRandomEmail } from '../utils/utils';
 import entityData from '../data/entityData.json';
 
@@ -19,6 +19,7 @@ test('basic test', async ({ page }) => {
 
   await login.goto();
   await login.mainlogin('testsuperjunfive@yopmail.com','5965f8ad1b96');
+  
 
 
   //calling methods of dashboardPage class
@@ -26,6 +27,8 @@ test('basic test', async ({ page }) => {
   await dashboard.loginasEntPrincipal();
 
   await dashboard.addEntity(inputData);
+
+  await dashboard.loginasNewEntity();
 
 
 });

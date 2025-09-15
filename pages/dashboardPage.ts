@@ -37,12 +37,39 @@ export class DashboardPage {
         await entinput.nth(0).fill(data.entemail)
 
         await this.page.getByPlaceholder('Enter Full Name').fill(data.admname);
+        await this.page.getByLabel('Title').fill(data.admtitle);
 
 
         await entinput.nth(1).fill(data.admemail);
-        await this.page.getByPlaceholder('Admin Contact*').fill(data.admphone);
 
-        await this.page.waitForTimeout(10000);
+        await this.page.getByLabel('Admin Contact').click();
+        await this.page.getByLabel('Admin Contact').fill(data.admphone);
+
+        await this.page.getByRole('button', {name: 'Add Entity'}).click();
+    }
+
+        async loginasNewEntity(){
+
+            await this.page.locator(dashboardSelectors.searchBtn).fill("Tony");
+
+            await this.page.locator(dashboardSelectors.firstSug).click();
+    
+            await this.page.getByRole('button', {name: 'Yes'}).click();
+
+
+
+        }
+
+        // await this.page.locator(dashboardSelectors.searchBtn).fill("Tony");
+
+        // await this.page.locator(dashboardSelectors.firstSug).click();
+
+        // await this.page.getByRole('button', {name: 'Yes'}).click();
+
+
+
+
+        // await this.page.waitForTimeout(10000);
 
 
 
@@ -58,7 +85,7 @@ export class DashboardPage {
 
     }
 
-}
+
 
 
 

@@ -14,6 +14,12 @@ export const dashboardSelectors = {
     padmPhn: "//input[@id='mui-45']",
 
 
+    searchBtn: "//input[@placeholder='Search']",
+    firstSug: "//tbody/tr[1]/td[5]/button[1]",
+
+    confirmBtn: "//tbody/tr[1]/td[5]/button[1]"
+
+
 
  
  };
